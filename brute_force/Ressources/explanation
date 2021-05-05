@@ -1,0 +1,9 @@
+Steps:
+    - Run a script that try to login with diffrent password until find the right password.
+
+Vulenrability name: Broken Authentication (Brute force attack).
+Vulenrability desc: Application functions related to authentication
+                    and session management are often implemented incorrectly,
+                    allowing attackers to compromise passwords, keys, or session tokens,
+                    or to exploit other implementation flaws to assume
+                    other users’ identities temporarily or permanently.

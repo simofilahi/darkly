@@ -1,2 +1,0 @@
-# darkly
-Web security project

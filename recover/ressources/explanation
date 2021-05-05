@@ -1,0 +1,6 @@
+Steps:
+    - Go to login page.
+    - Click on forgot password.
+    - inspect element make mail input change the value of mail then click on Submit.
+
+They must put the recovery mail address in backend not frontend.

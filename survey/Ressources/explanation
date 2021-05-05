@@ -1,0 +1,4 @@
+Steps:
+      - Go to survey page.
+      - Inspect element hover on grade change the value option in select tag an and select it.
+

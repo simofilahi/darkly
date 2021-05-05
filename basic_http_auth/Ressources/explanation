@@ -1,0 +1,9 @@
+Steps:
+    - Donwload htpasswd from {IP}/whatever/htpasswd.
+    - Get the encypted password in htpasswd.
+    - Decrypt password.
+    - Go to {IP}/admin
+    - Enter the credentials Username: root, Password: dragon.
+
+Vulenrability name:
+Vulenrability desc:

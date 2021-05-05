@@ -1,0 +1,12 @@
+Steps:
+        - Go to the bottom home page.
+        - Inspect element.
+        - hover on facebook icon and get the link from html.
+        - paste the link in browser input and change the site name.
+
+Vulenrability name: URL REDIRECTION.
+Vulenrability desc: URL Redirection is a vulnerability which allows an attacker
+                    to force users of your application to an untrusted external site.
+                    The attack is most often performed by delivering a link to the victim,
+                    who then clicks the link and is unknowingly redirected to the malicious
+                    website.

