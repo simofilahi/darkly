@@ -17,3 +17,13 @@ Vulenrability name: SQL INJECTION
 Vulenrability desc: SQL injection is a web security vulnerability that allows an attacker to
                     interfere with the queries that an application makes to its database.
                     It generally allows an attacker to view data that they are not normally able to retrieve
+
+Ways to prevent vulenrability from happening: 
+        - Sanitize input.
+        - Parameterized sql code.
+        - Limit user permissions.
+        - Web application firewalls.
+        - up to date Patches.
+        - Regular Testing.
+        - No database errors.
+        - Train SQLI awareness.

@@ -1,7 +1,7 @@
-Steps:
-     ### Go to feedback page ###
-         - write any character from script word in name field
-           and the flag will appear doesn't make a sense YEAH ! *___*;
+Steps: 
+    - Go to home page.
+    - Click on National Security image.
+    - Write {IP}index.php?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg== in url search 
 
 vulenrability name: Cross-site scripting (XSS)
 vulenrability desc:  is a web security vulnerability that allows an attacker

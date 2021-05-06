@@ -10,3 +10,9 @@ Vulenrability desc: URL Redirection is a vulnerability which allows an attacker
                     The attack is most often performed by delivering a link to the victim,
                     who then clicks the link and is unknowingly redirected to the malicious
                     website.
+
+Ways to prevent vulenrability from happening:
+        - Prevent such attacks by ensuring that redirects
+          in your applications are only done locally within your
+          app or to a known URL, never to a URL provided in a query string.
+        - For the external links it's perferable to do redirection from front-end.

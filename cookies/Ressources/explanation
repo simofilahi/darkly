@@ -8,3 +8,10 @@ Vulenrability desc: Application functions related to authentication
                     allowing attackers to compromise passwords, keys, or session tokens,
                     or to exploit other implementation flaws to assume
                     other users’ identities temporarily or permanently.
+
+Ways to prevent vulenrability from happening:
+    - Use strong encryption algorithem to encrypt session IDs.
+    - Do not expose session ID in the URL: Session IDs should not be exposed in the URL (e.g., URL rewriting).
+    - Session IDs should timeout: User sessions or authentication tokens should be properly invalidated during logout.
+    - Recreate session IDs: Session IDs should be recreated after successful login.
+    - Do not send credentials over unencrypted connections: Passwords, session IDs, and other credentials should not be sent over unencrypted connections.

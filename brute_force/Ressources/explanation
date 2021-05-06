@@ -7,3 +7,8 @@ Vulenrability desc: Application functions related to authentication
                     allowing attackers to compromise passwords, keys, or session tokens,
                     or to exploit other implementation flaws to assume
                     other users’ identities temporarily or permanently.
+
+Ways to prevent vulenrability from happening: 
+    - Limit failed login attempts.
+    - Use Captcha.
+    - Two factor authentication.
