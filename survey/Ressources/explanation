@@ -2,3 +2,11 @@ Steps:
       - Go to survey page.
       - Inspect element hover on grade change the value option in select tag an and select it.
 
+Vulenrability name: Input Validation Attack
+Vulenrability desc: An input validation attack is any malicious action against a computer system that
+                        involves manually entering strange information into a normal user input field.
+                        Input validation attacks take place when an attacker purposefully enters information
+                        into a system or application with the intentions to break the system's functionality.
+
+Ways to prevent vulenrability from happening:
+      Validating input in the backend and front end.

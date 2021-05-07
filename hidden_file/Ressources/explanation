@@ -1,0 +1,18 @@
+Steps:
+    - In the browser search write {IP}/robots.txt read the file content.
+    - Use a script to look within ".hidden" directory for valuable information.
+
+Vulenrability name: Security Misconfigurations
+Vulenrability desc: Attackers will often attempt to exploit unpatched flaws
+                    or access default accounts, unused pages, unprotected
+                    files and directories, etc to gain unauthorized access
+                    or knowledge of the system.
+
+Ways to prevent vulenrability from happening:
+    - Hidden files should not be used to hide confidential information as any user may view them.
+    - Wrong server configuration.
+    - Files permissions.
+    - Unnecessary ports being left open.
+    - Unneeded services permitted to run.
+    - Unused accounts with certain privileges not being deleted.
+
