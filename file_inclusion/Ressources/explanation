@@ -1,5 +1,5 @@
 Setps: 
-    - Go to any page in website except home.
+    - Go to web pages containe page variable in the url in website except home.
     - Write ../../../../../../../etc/passwd in url after page=.
 
 Vulenrability name: File inclusion.
