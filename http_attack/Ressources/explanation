@@ -1,7 +1,7 @@
 Steps:
   By following the comments in the inspect element we get some hints to send requests by using agent and referrer as options in the cURL command.
 
-
+Cmd : curl -A ft_bornToSec -e https://www.nsa.gov/ http://$IP/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c > file.html && open file.html
 Vulenrability name: spoofing attack
 Vulenrability desc:
 Spoofing can be done in different environments, protocols, systems with different tools. Spoofing attack generally executed in the IT environment but there are some alternative spoofing attacks which are executed in the different areas like Geolocation, Phone Systems.

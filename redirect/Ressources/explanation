@@ -3,6 +3,7 @@ Steps:
         - Inspect element.
         - hover on facebook icon and get the link from html.
         - paste the link in browser input and change the site name.
+        - Ex: http://$IP/index.php?page=redirect&site=google.com
 
 Vulenrability name: URL REDIRECTION.
 Vulenrability desc: URL Redirection is a vulnerability which allows an attacker

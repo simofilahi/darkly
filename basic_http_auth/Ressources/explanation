@@ -1,8 +1,8 @@
 Steps:
-    - Donwload htpasswd from {IP}/whatever/htpasswd.
+    - Donwload htpasswd from http://$IP/whatever/htpasswd.
     - Get the encypted password in htpasswd.
     - Decrypt password.
-    - Go to {IP}/admin
+    - Go to http://$IP/admin
     - Enter the credentials Username: root, Password: dragon.
 
 Vulenrability name: Security Misconfigurations

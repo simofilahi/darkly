@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cheerio": "*",
+    "colors": "^1.4.0",
     "request": "^2.88.2"
   }
 }
